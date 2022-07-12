@@ -1,0 +1,25 @@
+{
+  "name": "mlearning",
+  "version": "1.0.0",
+  "description": "mLearning for Lisa.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/mLearning.git"
+  },
+  "keywords": [
+    "mLearning",
+    "monadLisa",
+    "nodejs"
+  ],
+  "author": "suiGN",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suiGn/mLearning/issues"
+  },
+  "homepage": "https://github.com/suiGn/mLearning#readme"
+}
