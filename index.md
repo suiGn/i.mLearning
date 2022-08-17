@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
+**Getting Started on mLearning:**
 
-You can use the [editor on GitHub](https://github.com/suiGn/mLearning/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+#### Connect to PostgreSQL:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```postgresql
+psql -d database -U  user -W
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Connect to a database on another host,  add  -h option:
 
-### Jekyll Themes
+```postgresql
+psql -h host -d database -U user -W
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/suiGn/mLearning/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+Use SSL mode for the connection:
 
-### Support or Contact
+```postgresql
+psql -U user -h host "dbname=db sslmode=require"
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#### Switch connection to a new database
+
+Once you are connected to a database, you can switch the connection to a new database under a user specified by `user`. The previous connection will be closed. If you omit the `user` parameter, the current `user` is assumed.
+
+```postgresql
+\c dbname username
+```
+
+#### List available databases:
+
+List all databases in the current database server:
+
+```postgresql
+\l
+```
+
+
