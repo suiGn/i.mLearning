@@ -1,10 +1,11 @@
 //AddingSinusoids. For more information read AddingSinusoids.md
 
+
 let wave = {
     _name: 'wave',
     _frecuency: 0,
-    _range:
-    vector: vector,
+    _range:,
+    _vector: vector
    
     get frecuency() {
       return this._frecuency;
