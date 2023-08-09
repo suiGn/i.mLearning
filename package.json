@@ -1,6 +1,6 @@
 {
   "name": "i.mlearning",
-  "version": "2.1.9",
+  "version": "2.2.0",
   "description": "mLearning tools.",
   "main": "index.js",
   "scripts": {
