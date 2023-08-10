@@ -6,3 +6,16 @@
   - **Models**: Data structures or classes for the finest details.
   - **Services**: Functions that might interface with databases or other external systems at a granular level.
   - **Views (if applicable)**: Visual components or displays for these very specific entities.
+
+  Example:
+Given list of categories (Wildlife, Geography, etc.):
+
+High Level:
+Might have controllers or functions that deal with selecting the main category, like "Wildlife."
+If you're visually representing these categories, you might have large visual blocks or components here.
+Mid Level:
+Once "Wildlife" is chosen, functions in the Mid level might handle displaying "Biology" or differentiating between marine animals and land animals.
+Business logic could handle user interactions specific to this subcategory.
+Granular Level:
+If a user clicks on "Sharks" under marine animals, the granular level could handle displaying specific data on sharks or pulling up related content.
+Fine-tuned utilities or services might fetch specific data points about sharks from a database.
