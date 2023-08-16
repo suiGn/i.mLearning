@@ -1,5 +1,9 @@
 #### │   ├── config/  // Configuration files, environment variables, etc.
 
+**Docs:** [this.me](https://www.neurons.me/this-me)
+
+**Docs:** [neurons.me](https://www.neurons.me/)
+
 # i.mlearning/
 
 ```tex
