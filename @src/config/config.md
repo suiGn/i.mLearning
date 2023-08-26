@@ -1,12 +1,12 @@
-#### │   ├── config/  // Configuration files, environment variables, etc.
+#### │├── config/  // Configuration files, environment variables, etc.
 
-**Docs:** [this.me](https://www.neurons.me/this-me)
+**Docs:** [mlearning](https://www.mlearning.studio)
 
 **Docs:** [neurons.me](https://www.neurons.me/)
 
 # i.mlearning/
 
-```tex
+```text
 i.mlearning/
 │
 ├── index.js             # Entry point for your module

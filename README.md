@@ -16,39 +16,6 @@ npm i i.mlearning
 - **DataEntity**: This is a generalized class that represents broader categories or types of data (like languages, topics, etc.). It's built upon the foundational concept of a token.
 - **Language (and other similar classes)**: These are specific classes that provide further granularity and specificity, built upon the generalized `DataEntity` concept.
 
-## This SandBox Demo Quick Start
-
-1. Clone this Demo Repository
-
-  ```bash
-  git clone https://github.com/suiGn/.me.git
-  ```
-2. Navigate to the Project Directory
-
-  ```bash
-  cd .me
-  ```
-3. Install Dependencies
-You can use either Yarn or npm to install the necessary dependencies.
-
-Using Yarn:
-
-```bash
-yarn install
-```
-
-Using npm:
-
-```bash
-npm install
-```
-
-4. Launch the Application
-
-  ```bash
-  npx electron index.js
-  ```
-
 ### Using this structure:
 
 1. **Consistency**: Every piece of data is fundamentally a token, ensuring uniformity.
@@ -186,7 +153,7 @@ This modular system achieves:
     **Docs:** [neurons.me](https://www.neurons.me/)
 
 # Clone This Sandbox Demo Playground
-Welcome to the THIS.ME Playground, where the entire THIS.ME suite comes together with NEURONS.ME to provide a rich development and execution environment for your AI adventures.
+Welcome to the Playground, where the entire  suite comes together with **NEURONS.ME** to provide a rich development and execution environment for your AI adventures.
 
 ## Quick Start
 ### 1. Clone the Repository

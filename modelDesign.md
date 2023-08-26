@@ -1,10 +1,10 @@
 # **MODEL DESIGN** by neurons.me
 
-In the context of software design and development, when we discuss how **data is structured**, organized, and interrelated, we are essentially referring to the "data model" or simply the "model." In the case of an MVC (Model-View-Controller) architecture, the "model" is responsible for representing the data and the rules that govern the data.
+In the context of software design and development, when we discuss how **data is structured**, organized, and interrelated, we are essentially referring to the **"data model"** or simply the "model." In the case of an MVC (Model-View-Controller) architecture, the **"model"** is responsible for representing the data and the rules that govern the data.
 
-*For your models,* if you've decided that **topics** have a higher hierarchical priority than **languages**, then this hierarchical relationship would be defined within your model.
+*For this model in specific,* we've decided that **topics** have a higher hierarchical priority than **languages**, then this hierarchical relationship would be defined within your model.
 
-Here's a simplified representation:
+**Here's a simplified representation:**
 
 ```js
 class Topic {
@@ -33,7 +33,7 @@ class LanguageVersion {
 
 - `Topic` is the highest class.
 - Each `Topic` has multiple pieces of `Content`.
-- Each `Content` piece can exist in various `LanguageVersion`s.
+- Each `Content` piece can exist in various `LanguageVersions`.
 
 **The model dictates** the relationships between these entities. While both `Topic` and `LanguageVersion` might stand independent in some respects, in this hierarchy, `Topic` is indeed prioritized over languages.
 
