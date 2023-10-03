@@ -1,11 +1,11 @@
 {
   "name": "i.mlearning",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "mLearning tools.",
-  "main": "index.js",
+  "main": "this.js",
   "scripts": {
     "test": "node src/test.js",
-    "start": "node index.js"
+    "start": "node this.js"
   },
   "repository": {
     "type": "git",
