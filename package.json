@@ -1,8 +1,8 @@
 {
   "name": "i.mlearning",
   "version": "2.3.2",
-  "description": "mLearning tools.",
-  "main": "this.js",
+  "description": " A toolkit for token creation.",
+  "main": "index.js",
   "scripts": {
     "test": "node src/test.js",
     "start": "node this.js"
@@ -14,7 +14,8 @@
   "keywords": [
     "mLearning",
     "machine learning",
-    "deep Learning"
+    "deep Learning",
+    "gematria", "hebrew", "tokenization", "semantic"
   ],
   "author": "suiGN",
   "license": "MIT",

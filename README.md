@@ -16,21 +16,13 @@ npm i i.mlearning
 - **DataEntity**: This is a generalized class that represents broader categories or types of data (like languages, topics, etc.). It's built upon the foundational concept of a token.
 - **Language (and other similar classes)**: These are specific classes that provide further granularity and specificity, built upon the generalized `DataEntity` concept.
 
-### Using this structure:
-
-1. **Consistency**: Every piece of data is fundamentally a token, ensuring uniformity.
-2. **Flexibility**: As your studio suite evolves, you can introduce more specific classes (like `Topic`, `Geography`, etc.), each built on the foundational token concept.
-3. **Expandability**: The modular nature means you can keep adding classes, tools, or utilities to the suite without disturbing the foundational principle.
-
-Now that we've set the foundational structure based, you can start adding functionalities, tools, utilities, or other modules to the `i.mlearning` suite, keeping the `Token` at its heart. 
-
 **i.mLearning** concepts initially by identifying classes, but at the core, it's all about tokens.
 
 # mLearning **Abstracting Pieces of Grain**
 
 Let's break down how your site structure relates to tokens and how users interact with them at varying granularities.
 
-### 1. **Highest Level: Categories/Themes**
+### 1. **Highest Level: Categories/Themes**:
 
 At the **top-most level**, you have distinct categories or themes such as Wildlife, Geography, Nature, and Economics. These can be considered as broad categories that group related tokens together.
 
@@ -146,38 +138,13 @@ This modular system achieves:
 
   - [ ] Keep [i.mlearning](https://www.npmjs.com/package/i.mlearning).
 
+  - [ ] keep mlearning.studio
+
     
 
     **Docs:** [this.me](https://www.neurons.me/this-me)
-
+  
     **Docs:** [neurons.me](https://www.neurons.me/)
-
-# Clone This Sandbox Demo Playground
-Welcome to the Playground, where the entire  suite comes together with **NEURONS.ME** to provide a rich development and execution environment for your AI adventures.
-
-## Quick Start
-### 1. Clone the Repository
-```bash
-git clone https://github.com/suiGn/.me.git
-```
-### 2. Navigate to the Project Directory
-```bash
-cd .me
-```
-### 3. Install Dependencies
-You can use either Yarn or npm to install the necessary dependencies.
-Using Yarn:
-```bash
-yarn install 
-```
-Using npm:
-```bash
-npm install
-```
-### 4. Launch the Application
-```
-npx electron index.js
-```
 
 ## Contributing
 If you have suggestions or issues, please open an issue. We encourage contributions from the community.

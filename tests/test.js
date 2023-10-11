@@ -1,5 +1,5 @@
 // Load the mLearning module
-const mLearning = require('../index');
+const mLearning = require('../src/index');
 
 // Test the functionality of the waves method
 mLearning.method.waves.frequency = 10;
