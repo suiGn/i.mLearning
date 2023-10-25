@@ -7,16 +7,16 @@
     "test": "node src/test.js",
     "start": "node this.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/suiGn/i.mLearning"
-  },
   "keywords": [
     "mLearning",
     "machine learning",
     "deep Learning",
     "gematria", "hebrew", "tokenization", "semantic"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suiGn/i.mLearning.git"
+  },
   "author": "suiGN",
   "license": "MIT",
   "bugs": {
