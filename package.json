@@ -22,7 +22,8 @@
   "bugs": {
     "url": "https://github.com/suiGn/i.mLearning/issues"
   },
-  "homepage": "https://github.com/suiGn/i.mLearning#readme"
+  "homepage": "https://github.com/suiGn/i.mLearning#readme",
+  "repoType": "NPM Package"
 }
 
 
