@@ -13,16 +13,17 @@
     "deep Learning",
     "gematria", "hebrew", "tokenization", "semantic"
   ],
+  "bugs": {
+    "url": "https://github.com/suiGn/i.mLearning/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suiGn/i.mLearning.git"
   },
+  "homepage": "https://github.com/suiGn/i.mLearning#readme",
+  "docs": "https://suiGn.github.io/i.mLearning",
   "author": "suiGN",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/suiGn/i.mLearning/issues"
-  },
-  "homepage": "https://github.com/suiGn/i.mLearning#readme",
   "repoType": "NPM Package"
 }
 
