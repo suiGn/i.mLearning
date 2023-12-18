@@ -1,4 +1,4 @@
-# **MODEL DESIGN** by neurons.me
+# MODEL DESIGN by neurons.me
 
 In the context of software design and development, when we discuss how **data is structured**, organized, and interrelated, we are essentially referring to the **"data model"** or simply the "model." In the case of an MVC (Model-View-Controller) architecture, the **"model"** is responsible for representing the data and the rules that govern the data.
 
@@ -40,7 +40,5 @@ class LanguageVersion {
 **This hierarchical relationship in the model helps in designing the system, querying data, organizing the database, and more.** 
 
 **Docs:** [this.me](https://www.neurons.me/this-me)
-
 **Docs:** [neurons.me](https://www.neurons.me/)
-
 <img src="./_._.svg" alt="SVG Image" width="123" height="123" style="width123px; height:123px;">

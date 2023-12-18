@@ -4,7 +4,7 @@
   },
   "opts": {
     "destination": "./docs",
-    "template": "../neurons.me/src/assets/better-docs"
+    "template": "../../../../../Sandbox/dev_tools/assets/better-docs"
   },
   "templates": {
     "cleverLinks": false,
@@ -23,16 +23,28 @@
         "css": "style.css",
         "trackingCode": "-",
   "hideGenerator": false,
-        "navLinks": [
-            {
-                "label": "Github",
-                "href": "https://github.com/suiGn/i.mlearning"
-            },
-            {
-                "label": "App",
-                "href": "https://mlearning.studio"
-            }
-        ]
-    }
+  "navLinks": [
+    {
+      "label": "All.This",
+      "href": "https://suign.github.io/all.this/"
+  },
+  {
+    "label": "@Source",
+    "href": "https://suign.github.io/"
+},
+      {
+          "label": "Github",
+          "href": "https://github.com/suiGn/cleaker"
+      },
+      {
+          "label": "Cleaker.me",
+          "href": "https://cleaker.me"
+      },
+      {
+        "label": "What is all.this?",
+          "href": "https://www.neurons.me/this"
+      }
+  ]
+}
 }
 }
