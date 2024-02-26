@@ -24,7 +24,8 @@
   "docs": "https://suiGn.github.io/i.mLearning",
   "author": "suiGN",
   "license": "MIT",
-  "repoType": "NPM Package"
+  "repoType": "NPM Package",
+  "category": "utils"
 }
 
 
