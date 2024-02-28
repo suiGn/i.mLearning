@@ -1,7 +1,7 @@
 {
   "name": "i.mlearning",
-  "version": "2.3.4",
-  "description": " A toolkit for token creation.",
+  "version": "2.3.41",
+  "description": "mLearning about all.this.",
   "main": "index.js",
   "scripts": {
     "test": "node src/test.js",
@@ -10,8 +10,7 @@
   "keywords": [
     "mLearning",
     "machine learning",
-    "deep Learning",
-    "gematria", "hebrew", "tokenization", "semantic"
+    "deep Learning"
   ],
   "bugs": {
     "url": "https://github.com/suiGn/i.mLearning/issues"

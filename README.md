@@ -5,6 +5,8 @@
 ## Introduction to `i.mlearning`
 `i.mlearning` is an experimental module under development within the `all.this` family, specifically designed to streamline the process of setting up structured datasets for supervised learning. The module aims to provide a standardized framework for organizing and labeling data, making it optimally structured for training machine learning models, particularly in conjunction with the neurons.me platform.
 
+[mlearning.studio](https://mlearning.studio)
+
 ## Project Status
 **Experimental and Under Development:** `i.mlearning` is currently in an experimental phase, focusing on innovating how data is prepared and structured for machine learning. The module is in active development, and as such, it is subject to significant changes as we refine our approach and methodologies to best support supervised learning processes.
 

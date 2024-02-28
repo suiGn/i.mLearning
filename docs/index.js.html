@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +7,7 @@
   -
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>docs.i.mLearning Home</title>
+  <title>docs.i.mLearning index.js</title>
 
   <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
   <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
@@ -118,74 +120,40 @@
         <div class="core" id="main-content-wrapper">
             <div class="content">
                 <header class="page-title">
-                    <p></p>
-                    <h1>Home</h1>
+                    <p>Source</p>
+                    <h1>index.js</h1>
                 </header>
                 
 
 
 
     
-
-
-    <h3> </h3>
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
     <section>
-        <article><img src="./i.mlearning.png" alt="SVG Image" width="377">
-<h1><code>i.mlearning</code> README</h1>
-<h2>Introduction to <code>i.mlearning</code></h2>
-<p><code>i.mlearning</code> is an experimental module under development within the <code>all.this</code> family, specifically designed to streamline the process of setting up structured datasets for supervised learning. The module aims to provide a standardized framework for organizing and labeling data, making it optimally structured for training machine learning models, particularly in conjunction with the neurons.me platform.</p>
-<p><a href="https://mlearning.studio">mlearning.studio</a></p>
-<h2>Project Status</h2>
-<p><strong>Experimental and Under Development:</strong> <code>i.mlearning</code> is currently in an experimental phase, focusing on innovating how data is prepared and structured for machine learning. The module is in active development, and as such, it is subject to significant changes as we refine our approach and methodologies to best support supervised learning processes.</p>
-<h2>Core Vision and Purpose</h2>
-<p>The primary goal of <code>i.mlearning</code> is to facilitate the creation of well-organized, labeled datasets that can be directly utilized for training machine learning models. This involves:</p>
-<ul>
-<li><strong>Structured Data Directory</strong>: Providing a template or blueprint for organizing data files, such as images or audio clips, into labeled directories (e.g., <code>cats/</code> for cat images) to support straightforward supervised learning.</li>
-<li><strong>Data Labeling Consistency</strong>: Ensuring that all data within the structure is appropriately labeled and categorized to aid in the accurate training of machine learning models, enhancing the overall effectiveness and reliability of the learning process.</li>
-<li><strong>Integration with neurons.me</strong>: Making the structured and labeled data easily accessible and compatible with neurons.me, allowing for seamless data processing, model training, and analysis within the platform.</li>
-</ul>
-<h2>Anticipated Features</h2>
-<ul>
-<li><strong>Directory Templates for Data</strong>: Guidelines and structures for organizing various types of data, ensuring consistency and compatibility with supervised learning algorithms.</li>
-<li><strong>Labeling Guidelines</strong>: Best practices and instructions for labeling data within the structured directories, ensuring clarity and consistency across datasets.</li>
-<li><strong>Tools and Scripts</strong>: Potential development of utilities to assist in setting up and verifying the data structure, automating the preparation process as much as possible.</li>
-</ul>
-<h2>Getting Started</h2>
-<p>To begin experimenting with <code>i.mlearning</code>, you can clone or download the module and explore the provided directory structures and guidelines. As this module is still under development, we encourage experimentation and feedback:</p>
-<pre class="prettyprint source lang-bash"><code>npm i i.mlearning
+        <article>
+            <pre class="prettyprint source linenums"><code>/* In i.mlearning/index.js
+ⓝⓔⓤⓡⓞⓝⓢ.ⓜⓔ
+🆂🆄🅸🅶🅽 */
+
+/**
+ * @module imlearning
+ * @description Exports the main functionalities of the i.mlearning library.
+ */
+
+import imLearning from './src/imLearning.js';
+
+/**
+ * The main export object of i.mlearning package.
+ * @type {Object}
+ */
+const imlearning = {
+  imLearning
+};
+
+export default imlearning;
+console.log("i.mLearning loaded;");
 </code></pre>
-<p><strong>Note:</strong> As <code>i.mlearning</code> is in experimental mode, please be prepared for ongoing changes and updates. Your feedback and contributions can significantly shape its evolution.</p>
-<h2>Contributing to <code>i.mlearning</code></h2>
-<p>We welcome contributions, suggestions, and feedback from the community to enhance and refine <code>i.mlearning</code>. Whether you have ideas for new features, improvements to existing structures, or feedback on the module's usability, your input is invaluable.</p>
-<h2>Licensing and Usage</h2>
-<p><code>i.mlearning</code> is released under an open-source license, allowing you to use and modify the module freely within your projects. As the module evolves, please refer to the LICENSE file for the most current licensing information.</p>
-<h2>Join Us in Shaping <code>i.mlearning</code></h2>
-<p>Your involvement can help shape <code>i.mlearning</code> into a robust tool for data structuring in machine learning. Join us in this exciting journey to simplify and enhance the preparation of data for machine learning, contributing to the broader goals of accessibility and efficiency in AI and data science.</p>
-<p>For more details, visit our <a href="https://www.neurons.me">project page</a> or check out the <a href="https://www.neurons.me/all-this">neurons.me platform</a>.</p>
-<h2>Contributing</h2>
-<p>If you have suggestions or issues, please open an issue. We encourage contributions from the community.</p>
-<h3>License</h3>
-<p>This project is licensed under the <strong>MIT License</strong>. See the LICENSE file for details.</p>
-<p>By <a href="https://www.neurons.me">neurons.me</a></p>
-<img src="./_._.svg" alt="SVG Image" width="69" height="69" style="width69px; height:69px;"></article>
+        </article>
     </section>
-
-
 
 
 
