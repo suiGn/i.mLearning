@@ -1,4 +1,4 @@
-<img src="./i.mlearning.png" alt="SVG Image" width="377">
+<img src="https://suign.github.io/assets/imgs/i.mlearning.png" alt="i.mlearning" width="377">
 
 # `i.mlearning` README
 
